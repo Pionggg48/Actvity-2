@@ -1,0 +1,118 @@
+// Jean Piolo C. Ong, Activity 2
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+int m,d,y;
+cout<< "Hi there, i would like to know more about you"<<endl;
+cout<< " I would like to know more about you"<<endl;
+
+cout << "Kindly enter your Birth month: (1 to 12)\n";
+cin >> m; 
+cout << "Kindly enter your Birth date: (1 to 31)\n";
+cin >> d;
+cout << "Kindly enter your Birth year: \n";
+cin >> y;
+
+// MM/DD/YY
+switch (m)
+	{
+		case 1: 
+		cout << "January " << d << ", " << y << endl; 
+		break; 
+		
+		case 2: 
+		 if (m = 2 && d> 28)
+			{
+				cout << "This is an invalid date!"; 
+			}
+			
+		else
+			{
+			cout << "February " << d << ", " << y << endl;
+			}		
+		break; 
+		
+		case 3: 
+		cout << "March " << d << ", " << y << endl; 
+		break;
+		
+		case 4: 
+			 if (m = 4 && d> 30)
+			{
+				cout << "This is an invalid date!"; 
+			}
+			
+		else
+			{
+			cout << "April " << d << ", " << y << endl;
+			}		
+		break; 
+		
+		case 5: 
+		cout << "May " << d << ", " << y << endl; 
+		break; 
+		
+		case 6: 
+			 if (m = 6 && d> 30)
+			{
+				cout << "This is an invalid date!"; 
+			}
+			
+		else
+			{
+			cout << "June " << d << ", " << y << endl;
+			}		
+		break; 
+		
+		case 7: 
+		cout << "July " << d << ", " << y<< endl; 
+		break; 
+	
+		case 8: 
+		cout << "August " << d << ", " << y << endl; 
+		break;
+		
+		case 9: 
+			 if (m = 9 && d> 30)
+			{
+				cout << "This is an invalid date!"; 
+			}
+			
+		else
+			{
+			cout << "September " << d << ", " << y << endl;
+			}		
+		break;  	
+		
+		case 10: 
+		cout << "October " << d << ", " << y << endl; 
+		break; 	
+		
+		case 11: 
+			 if (m = 11 && d> 30)
+			{
+				cout << "This is an invalid date!"; 
+			}
+			
+		else
+			{
+			cout << "November " << d << ", " << y << endl;
+			}		
+		break; 	
+		
+		case 12: 
+		cout << "December " << d << ", " << y << endl; 
+		break; 	
+		
+			
+	}
+
+
+return 0;
+
+}
